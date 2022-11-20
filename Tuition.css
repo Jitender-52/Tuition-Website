@@ -6,7 +6,8 @@
 a{
     text-decoration: none;
     font-weight: 600;
-    color: black;
+    color: blue;
+    font-size: 20px;
 }
 
 body{
@@ -18,46 +19,35 @@ body{
     background-color: yellow;
     flex-direction: row;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     align-items: center;
+    height: 40px;
+    padding: 10px;
 }
 
 #navbar li{
-    margin-left: 20px;
+    margin: 0px 95px 0px 0px;
     list-style : none;
+}
+
+#navbar a:hover{
+    /* color: blue; */
+    background-color: #04AA6D;
+
 }
 
 #navbar ul
 {
     display: flex;
-    margin: 5px 3px;
+    margin: 10px 100px;
     height: 20px;
 } 
 
 
-
-/* *{
-    margin: 0;
-    padding: 0;
+#logo{
+    /* margin: 0px 0px; */
+    background-color: red;
+    margin-left: 10px;
+    height: 20px;
 }
 
- 
- /* CSS Variables  */
-/* :root{
-    --navbar-height: 59px;
-} */
-
-
-
-/* Navigation bar */
-
-/* #navbar{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0px;
-    font-family: 'Montserrat', sans-serif;
-}
- */
